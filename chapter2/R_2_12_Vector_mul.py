@@ -117,4 +117,4 @@ if __name__ == "__main__":
     v1.__setitem__(1, 2)
     v1.__setitem__(2, 3)
     print(v1.__str__())
-    print(v1.__mul__(4).__str__())
+    print((v1 * 4).__str__())
